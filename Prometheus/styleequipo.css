@@ -1,0 +1,102 @@
+/* Fondo principal */
+.inges {
+    background: url("img/contacserv.jpg") center bottom no-repeat;
+    background-size: cover;
+    min-height: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 600px;
+    
+}
+h1 {
+    color :red;
+    display: flex;
+    justify-content: center;  
+}
+
+/* Estilos del menú */
+.menu .navbar ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaciado entre elementos */
+    list-style: none;
+    padding: 10;
+    border-radius: 10px;
+}
+
+.menu .navbar ul li {
+    font-size: 30px;
+    padding: 15px 25px;
+    color: black;
+    border: 3px solid rgb(155, 4, 4);
+    font-weight: 300;
+    transition: background 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+
+.menu .navbar ul li:hover {
+    background: green;
+    color: red
+}
+
+/* Contenedor de las imagenes asignar forma y espacio */
+.inges-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px 0;
+}
+.tec1 {
+    background-image: url(imging/isa.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 200px; /* ajustar el tamaño */
+    padding: 50px;
+    border-radius: 10px; /* redondear bordes */
+}
+.tec2 {
+    background-image: url(imging/julio.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 200px; /* ajustar el tamaño */
+    padding: 50px;
+    border-radius: 10px; /* redondear bordes */
+}
+.tec3 {
+    background-image: url(imging/noe.jpg) ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 200px; /* ajustar el tamaño */
+    padding: 50px;
+    border-radius: 10px; /* redondear bordes */
+}
+
+
+
+
+/* dando estilo y tamaño al texto interior de las fotografias */
+.txt h3 {
+    font-size: 20px;
+    color: #02013a;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.txt p {
+    color: orangered; 
+    font-size: 16px;
+}
+.footer {
+    padding: 100px;
+    text-align: center
+}

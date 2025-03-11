@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contac.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <nav class="navbar">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="servicios.html">Servicios</a></li>
+                    <li><a href="equipo.html">Nuestro equipo</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <div class="header-txt">
+                <h1>Gracias por llegar hasta aca</h1>
+                <h2>Por favor ingresa tus datos en el siguiente fomulario</h2>
+            </div>
+        </div>
+    </header>
+    <section class="contacto" id="contacto">
+        
+
+        <form method="POST" action="registro.php" >
+            <div class="c">
+                <h2>Contacto</h2>
+                <hr>
+            </div>
+            <div class="input-group">
+
+                    <label for="name">Nombre</label>
+                    <input type="text" name="name" placeholder="Nombre">
+                    <!-- <i class="fa fa-user"></i -->
+
+                    <label for="phone">Telefono</label>
+                    <input type="tel" name="phone" placeholder="Telefono">
+                    <!-- <i class="fa fa-phone"></i> -->
+
+                    <label for="email">Email</label>
+                    <input type="email" name="email" placeholder="Email">
+
+                    <label for="mensaje">Mensaje</label>
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="6" placeholder="Mensaje"></textarea>
+                    <!-- <i class="fa fa-message"></i> -->
+
+
+                <input type="submit" name="enviar" id="enviar" value="Enviar">
+            </div>
+
+        </form>
+        
+    
+</section>
+
+
+
+    <footer class="footer container">
+        <h3>Contactanos al siguiente correo:</h3>
+        <h4>Grupo2CFTcenco@cenco.cl</h4>
+        <div class="footer-txt">
+            <p>Todos los derechos reservados Grupo n°2 CFT CENCO 2025 &#169 &#160 &#174</p>
+        </div>
+    </footer>
+</body>
+</html>
